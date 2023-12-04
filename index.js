@@ -1,21 +1,3 @@
-/*var randomNumber1 = Math.floor(Math.random() * 6) + 1; //1-6
-
-var randomDiceImage = "dice" +  randomNumber1 + ".png"; //dice1.png-dice6.png
-
-var randomImageSource = "images/" + randomDiceImage; //images/dice1.png-images/dice6.png
-
-//var image1 = document.querySelectorAll("img")[0];
-
-// image1.setAttribute("src", randomImageSource);
-document.querySelectorAll("img")[0].setAttribute("src"), randomImageSource1);
-
-
-var randomNumber2 = Math.floor(Math.random() * 6) + 1;
-
-var randomImageSource2 = "images/dice" + randomNumber2 + ".png"; //coverting line 3 and 5 to a single line
-
-document.querySelectorAll("img")[1].setAttribute("src"), randomImageSource2);*/
-
 function rollDice() {
     // Create 2 varibles for random numbers from 1 to 6
     let randomNumber1 = Math.floor(Math.random() * 6) + 1;
